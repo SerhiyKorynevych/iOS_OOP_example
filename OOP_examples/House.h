@@ -6,10 +6,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface House : NSObject
+@interface House : NSObject {
+    
+    NSString *_address;
+    NSMutableArray *_listOfResidents;
+}
+
+-(id)initWithAddress:(NSString *)address;
+-(void)setAddress:(NSString*)address;
+-(NSString*)address;
+-(void)settlePerson:(Person *)person;
+-(void)evictPerson: (Person *)person;
+-(void)descriptionOfHouse;
 
 @end
 

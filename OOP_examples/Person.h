@@ -13,12 +13,20 @@ NS_ASSUME_NONNULL_BEGIN
     
     NSString *_name;
     NSInteger _age;
+    NSString *_address;
     
 }
 
+-(id)initWithNme:(NSString *)name andAge:(NSInteger)age;
++(Person *)person; //екзмляр класу
 -(void)setName:(NSString *) name;
+-(NSString*)name;
 -(void)setAge:(NSInteger) age;
+-(NSInteger)age;
+-(void)setAddress:(NSString *)address;
+-(NSString*):address;
 -(void)descriptionOfPerson;
+//-(NSInteger)testStatic;
 
 
 @end

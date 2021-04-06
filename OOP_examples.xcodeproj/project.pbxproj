@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA127F94261B54C9000550C5 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = EA127F93261B54C9000550C5 /* House.m */; };
 		EA6C5AA52617417E00ED8489 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6C5AA42617417E00ED8489 /* main.m */; };
 		EA6C5AB62617457200ED8489 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6C5AB52617457200ED8489 /* Person.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EA127F92261B54C9000550C5 /* House.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		EA127F93261B54C9000550C5 /* House.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
 		EA6C5AA12617417E00ED8489 /* OOP_examples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOP_examples; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6C5AA42617417E00ED8489 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA6C5AB42617457200ED8489 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				EA6C5AA42617417E00ED8489 /* main.m */,
 				EA6C5AB42617457200ED8489 /* Person.h */,
 				EA6C5AB52617457200ED8489 /* Person.m */,
+				EA127F92261B54C9000550C5 /* House.h */,
+				EA127F93261B54C9000550C5 /* House.m */,
 			);
 			path = OOP_examples;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA127F94261B54C9000550C5 /* House.m in Sources */,
 				EA6C5AB62617457200ED8489 /* Person.m in Sources */,
 				EA6C5AA52617417E00ED8489 /* main.m in Sources */,
 			);
